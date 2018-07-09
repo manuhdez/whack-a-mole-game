@@ -67,3 +67,21 @@ h1 {
 .hole.up .mole {
   top:0;
 }
+
+#start {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: none;
+  border: none;
+  font-family: 'Amatic SC', cursive;
+  font-size: 6rem;
+  font-weight: 600;
+  outline: none;
+}
+
+#start:hover {
+  font-size: 6.5rem;
+  cursor: pointer;
+}
